@@ -1,31 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-body {background-color: rgb(153, 148, 194);}
-h1   {color: rgb(13, 32, 85);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;}
-p    {color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;}
-</style>
+  <title>Landing Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
 
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="C:\Users\ashle\Web-Design-Challenge\accidentsperseason.html">Accidents Per Season</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="accidentsvstemp.html">Accidents vs Temperature</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Accidentsvsrain.html">Accidents vs Precipitation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Weatherconditions.html">Weather Condition vs Severity</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Visualcomparison.html">Visual Comparisons</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Table.html">Data References</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+<br>
 
-<h1>Maricopa Accidents vs Weather Conditions</h1>
-<p>The purpose of this project is to analyze the accidents in 2020 for Maricopa county and compare with weather conditions. We will review different variables of weather such as, Season, Temperarture, Precipitation, Windspeed, at the time of the incidents. We will also observe the total accidents for each varaible to try to confirm if weather did increase or decrease accidents incidents.</p>
-<div class="w3-sidebar w3-bar-block" style="width:25%">
-  <a href="#" class="w3-bar-item w3-button">Visual 1</a>
-  <a href="#" class="w3-bar-item w3-button">Visual 2</a>
-  <a href="#" class="w3-bar-item w3-button">Visual 3</a>
-  <a href="#" class="w3-bar-item w3-button">Visual 4</a>
-  <a href="#" class="w3-bar-item w3-button">All Visuals</a>
-  <a href="#" class="w3-bar-item w3-button">Data Tables</a>
+<div class="container">
+  <h1>Maricopa Accidents VS Weather Conditions 2020</h1>
+  <img src="https://i.ibb.co/X3vYmfQ/Daily-Average-Temperature-VS-Daily-Accidents.png" alt="Daily-Average-Temperature-VS-Daily-Accidents" border="0" />
+  <p>The purpose of this project is to analyze the accidents in 2020 for Maricopa county and compare with weather conditions. We will review different variables of weather such as, Season, Temperarture, Precipitation, Windspeed, at the time of the incidents. We will also observe the total accidents for each varaible to try to confirm if weather did increase or decrease accidents incidents.</p>
 </div>
-
-<div style="margin-left:25%">
-... page content ...
+<div class="container">
+<h2>Visualizations</h2>
+<Br>
+<a href="accidentsperseason.html"><img src="https://i.ibb.co/qmZ7XGZ/Number-Of-Accidents-per-Season.png" alt="Number-Of-Accidents-per-Season" style="margin: 10px 10px 10px 10px;" border="0"></a>
+<a href="accidentsvstemp.html"><img src="https://i.ibb.co/93Py0GV/Number-of-Accidents-and-Average-Temperature.png" alt="Number-of-Accidents-and-Average-Temperature" style="margin: 10px 10px 10px 10px;" border="0"></a>
+<a href="Weatherconditions.html"><img src="https://i.ibb.co/dKqZH23/Weather-Conditions-VS-Severity-of-Accidents.png" alt="Weather-Conditions-VS-Severity-of-Accidents" style="margin: 10px 10px 10px 10px;"border="0"></a>
+<a href="Accidentsvsrain.html"><img src="https://i.ibb.co/mcnkJVK/Number-of-Accidents-and-Average-Precipitation.png" alt="Number-of-Accidents-and-Average-Precipitation"style="margin: 10px 10px 10px 10px; border="0"></a></a>
+<br><Br>
 </div>
 </body>
 </html>
